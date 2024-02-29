@@ -15,24 +15,24 @@ class hero{
 
         switch (this.tipo) {
             case 'Mago':
-                ataque = 'usou magia';
+                ataque = 'magia';
                 break;
             case 'Guerreiro':
-                ataque = 'usou espada'
+                ataque = 'espada'
                 break;
             case 'Monge':
-                ataque = 'usou artes marciais';
+                ataque = 'artes marciais';
                 break;
             case 'Ninja':
-                ataque = 'usou shuriken';
+                ataque = 'shuriken';
                 break;
             default:
-                ataque: 'usou um ataque.';
+                ataque: 'um ataque.';
         }
         
         // Mensagem do ataque
 
-        console.log(`O ${this.tipo} atacou usndo ${ataque}`);
+        console.log(`O ${this.tipo} atacou usando ${ataque}`);
 
     }
 }
